@@ -1,0 +1,193 @@
+{
+  "id": "daggerheart-srd-italiano",
+  "title": "Daggerheart SRD italiano",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Furegone",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  
+"packs": [
+        {
+            "name": "classes",
+            "label": "Classi",
+            "system": "daggerheart",
+            "path": "packs/classes.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "subclasses",
+            "label": "Sottoclassi",
+            "system": "daggerheart",
+            "path": "packs/subclasses.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "domains",
+            "label": "Domini",
+            "system": "daggerheart",
+            "path": "packs/domains.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "ancestries",
+            "label": "Ascendenze",
+            "system": "daggerheart",
+            "path": "packs/ancestries.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "communities",
+            "label": "Comunità",
+            "system": "daggerheart",
+            "path": "packs/communities.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "weapons",
+            "label": "Armi",
+            "system": "daggerheart",
+            "path": "packs/items/weapons.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "armors",
+            "label": "Armature",
+            "system": "daggerheart",
+            "path": "packs/items/armors.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "consumables",
+            "label": "Consumabili",
+            "system": "daggerheart",
+            "path": "packs/items/consumables.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "loot",
+            "label": "Bottino",
+            "system": "daggerheart",
+            "path": "packs/items/loot.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "adversaries",
+            "label": "Avversari",
+            "system": "daggerheart",
+            "path": "packs/adversaries.db",
+            "type": "Actor",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "environments",
+            "label": "Ambienti",
+            "system": "daggerheart",
+            "path": "packs/environments.db",
+            "type": "Actor",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "journals",
+            "label": "Regole",
+            "system": "daggerheart",
+            "path": "packs/journals.db",
+            "type": "JournalEntry",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "beastforms",
+            "label": "Forme Bestiali",
+            "system": "daggerheart",
+            "path": "packs/beastforms.db",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Daggerheart SRD Italiano",
+            "sorting": "m",
+            "color": "#62008f",
+            "packs": [
+                "adversaries",
+                "environments",
+                "journals"
+            ],
+            "folders": [
+                {
+                    "name": "Opzioni Personaggio",
+                    "sorting": "m",
+                    "color": "#000000",
+                    "packs": [
+                        "ancestries",
+                        "communities",
+                        "classes",
+                        "subclasses",
+                        "domains",
+                        "beastforms"
+                    ]
+                },
+                {
+                    "name": "Oggetti",
+                    "sorting": "m",
+                    "color": "#000000",
+                    "packs": [
+                        "armors",
+                        "weapons",
+                        "consumables",
+                        "loot"
+                    ]
+                }
+                
+            ]
+        }
+    ],
+        "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "url": "https://github.com/Furegone/modulo",
+    "manifest": "https://github.com/Furegone/modulo/releases/latest/download/module.json",
+    "download": "https://github.com/Furegone/modulo/releases/download/1.0.0/modulo.zip"
+}
