@@ -6,6 +6,6 @@ Questa traduzione italiana del materiale Daggerheart SRD è stata realizzata com
 
 **Traduzione italiana (intermedia):** a cura di [**Furegone**](https://furegone.github.io/antro/) come intermediario.
 
-**Materiale di partenza:** versione del sistema [Foundryborne](https://github.com/Foundryborne/daggerheart), da cui sono stati ricavati i contenuti base per la traduzione.
+**Materiale di partenza:** Sistema [Foundryborne](https://github.com/Foundryborne/daggerheart), da cui sono stati ricavati i contenuti base per la traduzione.
 
 Questa traduzione non ha carattere ufficiale ed è distribuita solo a scopo di supporto alla community, per facilitare la fruizione del gioco in lingua italiana fino al rilascio dei materiali ufficiali.
